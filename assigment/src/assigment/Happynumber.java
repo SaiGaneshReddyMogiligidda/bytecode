@@ -13,7 +13,7 @@ public static int getSquareSum(int num) {
 		        return sum;
 		    }
 
-		  
+		  //happy number
 		    public static boolean isHappy(int num) {
 		        int slow = num;
 		        int fast = getSquareSum(num);
